@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "IP反查域名插件",
+  "version": "1.0",
+  "description": "根据IP反查域名",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html"
+}
